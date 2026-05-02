@@ -58,9 +58,6 @@ jobs:
           echo ""
           echo "=== OPTIONAL SECRETS (Will skip if missing) ==="
           optional_secrets=(
-            "DROPBOX_APP_KEY"
-            "DROPBOX_APP_SECRET"
-            "DROPBOX_REFRESH_TOKEN"
             "INSTAGRAM_ACCESS_TOKEN"
             "INSTAGRAM_ACCOUNT_ID"
             "FACEBOOK_ACCESS_TOKEN"
@@ -86,9 +83,6 @@ jobs:
           echo "✅ Critical secrets present. Continuing with available platforms..."
         env:
           POLLINATIONS_API_KEY: ${{ secrets.POLLINATIONS_API_KEY }}
-          DROPBOX_APP_KEY: ${{ secrets.DROPBOX_APP_KEY }}
-          DROPBOX_APP_SECRET: ${{ secrets.DROPBOX_APP_SECRET }}
-          DROPBOX_REFRESH_TOKEN: ${{ secrets.DROPBOX_REFRESH_TOKEN }}
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
           FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
