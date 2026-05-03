@@ -110,5 +110,21 @@
             },
             "recycled": false
         }
+    },
+    {
+        "video_name": "grok-video-05348ac6-1fdb-4785-8e07-8a777f686892.mp4",
+        "metadata": {
+            "title": "That Parrot Stare... Picko is Planning Something!",
+            "description": "Living with a parrot means never having a quiet moment \u2014 and we wouldn't have it any other way! \ud83e\udd9c Picko is the heart of Picko Universe, and his energy is contagious. Just look at those feathers and that mischievous glint in his eye! Like if you think Picko is the cutest parrot on the internet! \u2b50 #parrot #funnyparrot #pickouniverse #greenparrot #funnyanimals #birds #talkingparrot #parrotlife #cutebirds #animalhumor #shorts #reels",
+            "success_flags": {
+                "instagram_reel": false,
+                "instagram_story": false,
+                "facebook_reel": true,
+                "facebook_story": true,
+                "threads": false,
+                "youtube": false
+            },
+            "recycled": true
+        }
     }
 ]
